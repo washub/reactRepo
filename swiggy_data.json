@@ -1,0 +1,200 @@
+[
+  {
+    "id": "43836",
+    "name": "McDonald's",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/22/89d23ffb-8ded-424a-a677-f4d0fdaae2d5_43836.JPG",
+    "locality": "MG Road",
+    "areaName": "Ashok Nagar",
+    "costForTwo": "₹400 for two",
+    "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+    "avgRating": 4.4,
+    "slaString": "18-28 mins",
+    "deliveryTime": 23,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Classic fast food favorites"
+  },
+  {
+    "id": "5938",
+    "name": "Burger King",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/aa2250f4-9b3d-4df1-a58d-276d36cc813e_5938.jpg",
+    "locality": "Tasker Town",
+    "areaName": "Shivaji Nagar",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Burgers", "American"],
+    "avgRating": 4.4,
+    "slaString": "33-43 mins",
+    "deliveryTime": 38,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "20% OFF",
+      "subHeader": "UPTO ₹50",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Flame-grilled burger delights"
+  },
+  {
+    "id": "279735",
+    "name": "Easybites By Empire",
+    "imageId": "67aa20d5bff8c2d59a5ebd3e700daa25",
+    "locality": "Castel Street",
+    "areaName": "Ashok Nagar",
+    "costForTwo": "₹150 for two",
+    "cuisines": ["Snacks", "Fast Food", "Beverages"],
+    "avgRating": 4.5,
+    "slaString": "43-53 mins",
+    "deliveryTime": 48,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "30% OFF",
+      "subHeader": "UPTO ₹75",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Quick and tasty bites"
+  },
+  {
+    "id": "3369",
+    "name": "Truffles",
+    "imageId": "ppxql5kvdcyzm01cu9el",
+    "locality": "St. Marks Road",
+    "areaName": "St. Marks Road",
+    "costForTwo": "₹450 for two",
+    "cuisines": ["American", "Desserts", "Continental", "Italian"],
+    "avgRating": 4.6,
+    "slaString": "23-33 mins",
+    "deliveryTime": 28,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "15% OFF",
+      "subHeader": "UPTO ₹60",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Gourmet flavors, sweet endings"
+  },
+  {
+    "id": "953489",
+    "name": "Wendy's Burgers",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/11/abe687dd-c957-4a15-86b2-9136210a5d93_953489.JPG",
+    "locality": "Ashok Nagar",
+    "areaName": "Ashok Nagar",
+    "costForTwo": "₹750 for two",
+    "cuisines": ["Burgers", "American", "Fast Food", "Snacks"],
+    "avgRating": 4.6,
+    "slaString": "23-33 mins",
+    "deliveryTime": 28,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "25% OFF",
+      "subHeader": "UPTO ₹100",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Juicy burgers, fresh snacks"
+  },
+  {
+    "id": "354531",
+    "name": "Burger Seigneur",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/20/fb9fc92c-c4df-443f-9c51-7134c8b7e26e_354531.jpg",
+    "locality": "St. Marks Road",
+    "areaName": "St. Marks Road",
+    "costForTwo": "₹1200 for two",
+    "cuisines": ["American", "Continental", "Beverages"],
+    "avgRating": 4.5,
+    "slaString": "33-43 mins",
+    "deliveryTime": 38,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "10% OFF",
+      "subHeader": "UPTO ₹80",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Premium burgers and drinks"
+  },
+  {
+    "id": "855717",
+    "name": "Burgerama",
+    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/3/342fd5bb-8457-496b-8dcf-06765a009faf_33f147cf-d7a9-4935-8940-088547351dd7.jpg",
+    "locality": "Vasanth Nagar",
+    "areaName": "R.T. Nagar",
+    "costForTwo": "₹700 for two",
+    "cuisines": ["Burger"],
+    "avgRating": 4.3,
+    "slaString": "33-43 mins",
+    "deliveryTime": 38,
+    "lastMileTravel": null,
+    "isOpen": true,
+    "totalRatings": null,
+    "aggregatedDiscountInfoV3": {
+      "header": "35% OFF",
+      "subHeader": "UPTO ₹90",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "description": "Burger lovers' paradise"
+  },
+  {
+    "id": "5358",
+    "name": "The Only Place",
+    "imageId": "ejfvghykrkfapuyw5phz",
+    "locality": "Church Street",
+    "areaName": "Church Street",
+    "costForTwo": "₹1000 for two",
+    "cuisines": ["Continental", "Steakhouse", "American", "Italian", "Beverages", "Desserts"],
+    "avgRating": 4.5,
+    "totalRatings": "13K+",
+    "deliveryTime": 35,
+    "lastMileTravel": 2,
+    "isOpen": true,
+    "aggregatedDiscountInfoV3": {
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "slaString": "30-40 mins",
+    "description": "Elegant dining with variety"
+  },
+  {
+    "id": "851703",
+    "name": "KFC",
+    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/13/d6b9be59-10a4-420d-9ff6-44f91b87c7c0_4f367b42-73b8-428c-a801-8f0cf51021b3.jpg",
+    "locality": "ALICE JEWELLERY",
+    "areaName": "COMMERCIAL STREET",
+    "costForTwo": "₹400 for two",
+    "cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
+    "avgRating": 4.1,
+    "totalRatings": "571",
+    "deliveryTime": 45,
+    "lastMileTravel": 5,
+    "isOpen": true,
+    "aggregatedDiscountInfoV3": {
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100",
+      "discountTag": "",
+      "headerTypeV2": 0
+    },
+    "slaString": "40-50 mins",
+    "description": "Famous crispy fried chicken"
+  }
+]

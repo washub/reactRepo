@@ -1,4 +1,119 @@
-h1{
-    color: rebeccapurple;
-    font-size: 2em;
+* {
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    overflow: hidden;
+}
+.logo{
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+}
+.nav-items > li{
+    margin-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.search-feed{
+    display: block;
+    margin: 20px auto;
+    margin-left: 20%;
+    height: 40px;
+
+}
+.search-feed > form{
+    width: 70%;
+    height: 100%;
+    
+}
+.input-field{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 90%;
+}
+.input-field > input{
+    width: 90%;
+    padding: 1px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+.input-field > button{
+    font-size: 1rem;
+}
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rest-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 18vw;
+    height: 270px;
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    cursor: pointer;
+    padding: 0;
+    overflow: hidden;
+}
+.rest-card:hover{
+    transform: scale(0.98);
+    transition: transform 200ms ease;
+}
+
+.rest-logo{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    
+}
+.rest-logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.rest-logo > .banner{
+    position:absolute;
+    bottom: 0px; 
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+    height: 30%;
+    width: 100%;
+}
+.banner > .banner-text{
+    position:absolute;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 0.5;
+    bottom: 0;
+}
+.rest-body{
+    align-items: start;
+    padding-left: 4px;
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
