@@ -1,10 +1,11 @@
 import SearchBar from './SearchBar'
+import MainContainer from './MainContainer'
 import RestaurantCardsContainer from './RestaurantCardsContainer'
 const Body = ()=>{
     return (
         <div className="body">
             <SearchBar/>
-            <RestaurantCardsContainer/>
+            <MainContainer/>
         </div>
     )
 }
