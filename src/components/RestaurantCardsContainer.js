@@ -1,5 +1,5 @@
 import RestaurantCard from './RestaurantCard'
-import restData from '../../swiggy_data.json'
+import restData from '../common/swiggy_data.json'
 const RestaurantCardsContainer = ()=>{
     return (
         <div className="restaurant-container">

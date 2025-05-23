@@ -1,4 +1,4 @@
-const swiggyCloudinary = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+import { ZWIGGY_IMG_CDN_URL } from "../common/constants"
 
 
 const RestaurantCard = (props)=>{
@@ -6,7 +6,7 @@ const RestaurantCard = (props)=>{
     return (
         <div className="rest-card">
             <div className="rest-logo">
-                <img src={swiggyCloudinary + imageId} alt={name} />
+                <img src={ZWIGGY_IMG_CDN_URL + imageId} alt={name} />
                 <div className="banner">
                      <div className="banner-text">{aggregatedDiscountInfoV3.header + " " + aggregatedDiscountInfoV3.subHeader}</div>
                 </div>
