@@ -1,8 +1,8 @@
 const Filter = ()=>{
     return (
-        <div className="filter-container">
-            <div className="filter">
-                <button className="filter-btn">Top Rated Restaurants</button>
+        <div className="filter-container p-4 flex flex-col fixed left-0 h-full border border-solid border-black">
+            <div className="filter border border-solid border-green-600 bg-green-300 p-2 cursor-pointer hover:bg-green-200">
+                <button className="filter-btn text-base">Top Rated Restaurants</button>
             </div>
         </div>
     )

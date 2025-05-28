@@ -19,7 +19,7 @@ const RestaurantCardsContainer = ()=>{
   }
   console.log("Hi component rendered")
     return restData?.length!==0? (
-        <div className="restaurant-container">
+        <div className="restaurant-container ml-56 flex flex-wrap w-10/12 gap-4">
           {
             restData.map(res=> <RestaurantCard key = {res?.info?.id} restaurant={res}/>)
           }
