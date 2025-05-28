@@ -1,13 +1,30 @@
 import RestaurantCard from './RestaurantCard'
-import restData from '../common/swiggy_data.json'
+import resData from '../common/swiggy_data.json'
+import { useEffect, useState } from 'react'
+import { SWIGGY_URI } from '../common/constants'
+import Shimmer from './Shimmer'
+
+
 const RestaurantCardsContainer = ()=>{
-    return (
+  const [restData, setRestData] = useState([]);
+
+  useEffect(()=>{
+    fetchSwiggyData();
+  }, [])
+
+  const fetchSwiggyData = async() =>{
+    const response = await fetch(SWIGGY_URI)
+    const data = await response.json()
+    setRestData(data?.data?.cards?.[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+  }
+  console.log("Hi component rendered")
+    return restData?.length!==0? (
         <div className="restaurant-container">
           {
-            restData.map(res=> <RestaurantCard key = {res.id} restaurant={res}/>)
+            restData.map(res=> <RestaurantCard key = {res?.info?.id} restaurant={res}/>)
           }
         </div>
-    )
+    ) : <Shimmer/>
 }
 
 export default RestaurantCardsContainer
