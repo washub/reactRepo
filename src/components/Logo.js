@@ -2,7 +2,7 @@ import { LOGO_URL } from "../common/constants";
 const Logo = ()=>{
     return (
         <div className="logo-container">
-            <img className="logo" src={LOGO_URL}/>
+            <img className="w-24 logo" src={LOGO_URL}/>
         </div>
         )
 }
