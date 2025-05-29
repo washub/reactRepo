@@ -2,6 +2,7 @@ import { ZWIGGY_IMG_CDN_URL } from "../common/constants"
 
 const MenuCard = (props)=>{
     const {name, id, price,defaultPrice, ratings, description, itemAttribute, imageId, category} =props?.info
+    const showLine = props.showLine
                       
     return (
         <div className="menu-container flex flex-col" key={id}>
@@ -18,7 +19,7 @@ const MenuCard = (props)=>{
                     {imageId ?<img className="menu-logo w-full h-full object-cover rounded-lg" src={ZWIGGY_IMG_CDN_URL+imageId} alt={category} />:<></>}
                 </div>
                 </div>
-                <div className="horizonal-line mb-4 border-b border-solid border-gray-300"></div>
+                {showLine?<div className="horizonal-line mb-4 border-b border-solid border-gray-300"></div>:<></>}
         </div>
     )
 }
