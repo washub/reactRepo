@@ -16,7 +16,7 @@ const RestaurantMenu = ()=>{
     console.log(restItem)
     
     return (
-        <div className="menu mt-4 flex flex-col gap-4 w-4/5 lg:w-3/5 mx-auto">
+        <div className="menu mt-4 flex flex-col gap-4 w-3/5 lg:w-3/5 mx-auto">
             {restItem.map((res, ind) =>{
                return (
                  <div key = {res?.card?.card?.categoryId +""+ ind} className="menu-category-wrapper">

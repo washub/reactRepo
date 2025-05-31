@@ -10,8 +10,11 @@ const RestaurantCategory = (props)=>{
     }
     return (
         <div className="menu-category">
-            <div className="menu-title font-bold text-xl mb-5"
-            onClick={handleClick}><h3>{category?.title} ({category?.itemCards?.length})</h3></div>
+            <div className="menu-title font-bold text-xl mb-5 flex justify-between cursor-pointer"
+            onClick={handleClick}>
+                <h3>{category?.title} ({category?.itemCards?.length})</h3>
+                <span><img src={expandCategory?"https://www.svgrepo.com/show/506647/chevron-bottom.svg":"https://www.svgrepo.com/show/506650/chevron-top.svg"} alt="" className="w-8 h-8"/></span>
+            </div>
             {expandCategory?category?.itemCards?.map((item, mind) =>{
                 return item?.card?.info?.isBestseller
                 ?<MenuCardWithBestSeller key={item?.card?.info?.id} info={ item?.card?.info} showLine={category?.itemCards.length-1!==mind?true:false}/>

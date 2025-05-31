@@ -5,7 +5,9 @@ const RestaurantGroupedCategory = (props)=>{
     const categories = props?.categories
     return (
         <div className="nested-category">
-            <div className="grouped-menu-title font-bold text-xl mb-5"><h3>{categories?.title} </h3></div>
+            <div className="grouped-menu-title font-bold text-xl mb-5">
+                <h3>{categories?.title}</h3>
+            </div>
             {categories?.categories?.map((category, ind) =>{
                 return (
                     <div key={category.categoryId}>
