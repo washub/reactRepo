@@ -17,6 +17,8 @@ const MenuCard = (props)=>{
                 </div>
                 <div className="w-2/4 h-44 sm:w-1/5 sm:h-4/5 mx-auto">
                     {imageId ?<img className="menu-logo w-full h-full object-cover rounded-lg" src={ZWIGGY_IMG_CDN_URL+imageId} alt={category} />:<></>}
+                    <button className="add-cart-btn text-green-500 font-bold rounded-lg
+                    relative left-2/4 bottom-1/4 -translate-x-2/4 shadow-lg px-4 py-2 bg-white text-lg">ADD</button>
                 </div>
                 </div>
                 {showLine?<div className="horizonal-line mb-4 border-b border-solid border-gray-300"></div>:<></>}

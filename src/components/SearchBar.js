@@ -1,7 +1,18 @@
+import { useContext } from "react"
+import SearchContext from "../common/context/SearchContext"
+
 const SearchBar = ()=>{
+    const searchContext = useContext(SearchContext);
+    const handleSearch = (e)=>{
+        e.preventDefault()
+        searchContext.setSearch(e.target.search.value)
+        e.target.reset();
+       
+    }
+    // console.log("Search component")
     return (
         <div className="search-feed w-3/5 self-center sm:w-2/5">
-            <form>
+            <form onSubmit={handleSearch}>
                 <div className="input-field w-full flex justify-around flex-col sm:flex-row">
                     <input type="text" name="search" id="search"
                       className="w-full sm:w-10/12 text-base pl-1 border border-solid border-black"/>
